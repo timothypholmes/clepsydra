@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66FF57A32AE03EF200EFC9A0 /* clepsydraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FF57A22AE03EF200EFC9A0 /* clepsydraApp.swift */; };
+		66FF57A52AE03EF200EFC9A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FF57A42AE03EF200EFC9A0 /* ContentView.swift */; };
+		66FF57A72AE03EF300EFC9A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66FF57A62AE03EF300EFC9A0 /* Assets.xcassets */; };
+		66FF57AA2AE03EF300EFC9A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66FF57A92AE03EF300EFC9A0 /* Preview Assets.xcassets */; };
+		66FF57B52AE03EF300EFC9A0 /* clepsydraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FF57B42AE03EF300EFC9A0 /* clepsydraTests.swift */; };
+		66FF57BF2AE03EF300EFC9A0 /* clepsydraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FF57BE2AE03EF300EFC9A0 /* clepsydraUITests.swift */; };
+		66FF57C12AE03EF300EFC9A0 /* clepsydraUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FF57C02AE03EF300EFC9A0 /* clepsydraUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66FF57B12AE03EF300EFC9A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66FF57972AE03EF100EFC9A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66FF579E2AE03EF100EFC9A0;
+			remoteInfo = clepsydra;
+		};
+		66FF57BB2AE03EF300EFC9A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66FF57972AE03EF100EFC9A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66FF579E2AE03EF100EFC9A0;
+			remoteInfo = clepsydra;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		66FF579F2AE03EF200EFC9A0 /* clepsydra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = clepsydra.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66FF57A22AE03EF200EFC9A0 /* clepsydraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clepsydraApp.swift; sourceTree = "<group>"; };
+		66FF57A42AE03EF200EFC9A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		66FF57A62AE03EF300EFC9A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66FF57A92AE03EF300EFC9A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		66FF57AB2AE03EF300EFC9A0 /* clepsydra.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = clepsydra.entitlements; sourceTree = "<group>"; };
+		66FF57B02AE03EF300EFC9A0 /* clepsydraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = clepsydraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66FF57B42AE03EF300EFC9A0 /* clepsydraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clepsydraTests.swift; sourceTree = "<group>"; };
+		66FF57BA2AE03EF300EFC9A0 /* clepsydraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = clepsydraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66FF57BE2AE03EF300EFC9A0 /* clepsydraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clepsydraUITests.swift; sourceTree = "<group>"; };
+		66FF57C02AE03EF300EFC9A0 /* clepsydraUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clepsydraUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66FF579C2AE03EF100EFC9A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66FF57AD2AE03EF300EFC9A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66FF57B72AE03EF300EFC9A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66FF57962AE03EF100EFC9A0 = {
+			isa = PBXGroup;
+			children = (
+				66FF57A12AE03EF200EFC9A0 /* clepsydra */,
+				66FF57B32AE03EF300EFC9A0 /* clepsydraTests */,
+				66FF57BD2AE03EF300EFC9A0 /* clepsydraUITests */,
+				66FF57A02AE03EF200EFC9A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66FF57A02AE03EF200EFC9A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66FF579F2AE03EF200EFC9A0 /* clepsydra.app */,
+				66FF57B02AE03EF300EFC9A0 /* clepsydraTests.xctest */,
+				66FF57BA2AE03EF300EFC9A0 /* clepsydraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66FF57A12AE03EF200EFC9A0 /* clepsydra */ = {
+			isa = PBXGroup;
+			children = (
+				66FF57A22AE03EF200EFC9A0 /* clepsydraApp.swift */,
+				66FF57A42AE03EF200EFC9A0 /* ContentView.swift */,
+				66FF57A62AE03EF300EFC9A0 /* Assets.xcassets */,
+				66FF57AB2AE03EF300EFC9A0 /* clepsydra.entitlements */,
+				66FF57A82AE03EF300EFC9A0 /* Preview Content */,
+			);
+			path = clepsydra;
+			sourceTree = "<group>";
+		};
+		66FF57A82AE03EF300EFC9A0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				66FF57A92AE03EF300EFC9A0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		66FF57B32AE03EF300EFC9A0 /* clepsydraTests */ = {
+			isa = PBXGroup;
+			children = (
+				66FF57B42AE03EF300EFC9A0 /* clepsydraTests.swift */,
+			);
+			path = clepsydraTests;
+			sourceTree = "<group>";
+		};
+		66FF57BD2AE03EF300EFC9A0 /* clepsydraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				66FF57BE2AE03EF300EFC9A0 /* clepsydraUITests.swift */,
+				66FF57C02AE03EF300EFC9A0 /* clepsydraUITestsLaunchTests.swift */,
+			);
+			path = clepsydraUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66FF579E2AE03EF100EFC9A0 /* clepsydra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66FF57C42AE03EF300EFC9A0 /* Build configuration list for PBXNativeTarget "clepsydra" */;
+			buildPhases = (
+				66FF579B2AE03EF100EFC9A0 /* Sources */,
+				66FF579C2AE03EF100EFC9A0 /* Frameworks */,
+				66FF579D2AE03EF100EFC9A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = clepsydra;
+			productName = clepsydra;
+			productReference = 66FF579F2AE03EF200EFC9A0 /* clepsydra.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66FF57AF2AE03EF300EFC9A0 /* clepsydraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66FF57C72AE03EF300EFC9A0 /* Build configuration list for PBXNativeTarget "clepsydraTests" */;
+			buildPhases = (
+				66FF57AC2AE03EF300EFC9A0 /* Sources */,
+				66FF57AD2AE03EF300EFC9A0 /* Frameworks */,
+				66FF57AE2AE03EF300EFC9A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66FF57B22AE03EF300EFC9A0 /* PBXTargetDependency */,
+			);
+			name = clepsydraTests;
+			productName = clepsydraTests;
+			productReference = 66FF57B02AE03EF300EFC9A0 /* clepsydraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		66FF57B92AE03EF300EFC9A0 /* clepsydraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66FF57CA2AE03EF300EFC9A0 /* Build configuration list for PBXNativeTarget "clepsydraUITests" */;
+			buildPhases = (
+				66FF57B62AE03EF300EFC9A0 /* Sources */,
+				66FF57B72AE03EF300EFC9A0 /* Frameworks */,
+				66FF57B82AE03EF300EFC9A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66FF57BC2AE03EF300EFC9A0 /* PBXTargetDependency */,
+			);
+			name = clepsydraUITests;
+			productName = clepsydraUITests;
+			productReference = 66FF57BA2AE03EF300EFC9A0 /* clepsydraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66FF57972AE03EF100EFC9A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					66FF579E2AE03EF100EFC9A0 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					66FF57AF2AE03EF300EFC9A0 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 66FF579E2AE03EF100EFC9A0;
+					};
+					66FF57B92AE03EF300EFC9A0 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 66FF579E2AE03EF100EFC9A0;
+					};
+				};
+			};
+			buildConfigurationList = 66FF579A2AE03EF100EFC9A0 /* Build configuration list for PBXProject "clepsydra" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66FF57962AE03EF100EFC9A0;
+			productRefGroup = 66FF57A02AE03EF200EFC9A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66FF579E2AE03EF100EFC9A0 /* clepsydra */,
+				66FF57AF2AE03EF300EFC9A0 /* clepsydraTests */,
+				66FF57B92AE03EF300EFC9A0 /* clepsydraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66FF579D2AE03EF100EFC9A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66FF57AA2AE03EF300EFC9A0 /* Preview Assets.xcassets in Resources */,
+				66FF57A72AE03EF300EFC9A0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66FF57AE2AE03EF300EFC9A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66FF57B82AE03EF300EFC9A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66FF579B2AE03EF100EFC9A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66FF57A52AE03EF200EFC9A0 /* ContentView.swift in Sources */,
+				66FF57A32AE03EF200EFC9A0 /* clepsydraApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66FF57AC2AE03EF300EFC9A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66FF57B52AE03EF300EFC9A0 /* clepsydraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66FF57B62AE03EF300EFC9A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66FF57C12AE03EF300EFC9A0 /* clepsydraUITestsLaunchTests.swift in Sources */,
+				66FF57BF2AE03EF300EFC9A0 /* clepsydraUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66FF57B22AE03EF300EFC9A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66FF579E2AE03EF100EFC9A0 /* clepsydra */;
+			targetProxy = 66FF57B12AE03EF300EFC9A0 /* PBXContainerItemProxy */;
+		};
+		66FF57BC2AE03EF300EFC9A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66FF579E2AE03EF100EFC9A0 /* clepsydra */;
+			targetProxy = 66FF57BB2AE03EF300EFC9A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		66FF57C22AE03EF300EFC9A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		66FF57C32AE03EF300EFC9A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		66FF57C52AE03EF300EFC9A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = clepsydra/clepsydra.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"clepsydra/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tim.clepsydra;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		66FF57C62AE03EF300EFC9A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = clepsydra/clepsydra.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"clepsydra/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tim.clepsydra;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		66FF57C82AE03EF300EFC9A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tim.clepsydraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/clepsydra.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/clepsydra";
+			};
+			name = Debug;
+		};
+		66FF57C92AE03EF300EFC9A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tim.clepsydraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/clepsydra.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/clepsydra";
+			};
+			name = Release;
+		};
+		66FF57CB2AE03EF300EFC9A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tim.clepsydraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = clepsydra;
+			};
+			name = Debug;
+		};
+		66FF57CC2AE03EF300EFC9A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tim.clepsydraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = clepsydra;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66FF579A2AE03EF100EFC9A0 /* Build configuration list for PBXProject "clepsydra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66FF57C22AE03EF300EFC9A0 /* Debug */,
+				66FF57C32AE03EF300EFC9A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66FF57C42AE03EF300EFC9A0 /* Build configuration list for PBXNativeTarget "clepsydra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66FF57C52AE03EF300EFC9A0 /* Debug */,
+				66FF57C62AE03EF300EFC9A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66FF57C72AE03EF300EFC9A0 /* Build configuration list for PBXNativeTarget "clepsydraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66FF57C82AE03EF300EFC9A0 /* Debug */,
+				66FF57C92AE03EF300EFC9A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66FF57CA2AE03EF300EFC9A0 /* Build configuration list for PBXNativeTarget "clepsydraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66FF57CB2AE03EF300EFC9A0 /* Debug */,
+				66FF57CC2AE03EF300EFC9A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66FF57972AE03EF100EFC9A0 /* Project object */;
+}
