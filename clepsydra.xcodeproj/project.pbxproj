@@ -7,13 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		660CFB1A2AE1751200CB0072 /* alarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 660CFB192AE1751200CB0072 /* alarm.mp3 */; };
 		66FF57A32AE03EF200EFC9A0 /* clepsydraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FF57A22AE03EF200EFC9A0 /* clepsydraApp.swift */; };
 		66FF57A52AE03EF200EFC9A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FF57A42AE03EF200EFC9A0 /* ContentView.swift */; };
 		66FF57A72AE03EF300EFC9A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66FF57A62AE03EF300EFC9A0 /* Assets.xcassets */; };
 		66FF57AA2AE03EF300EFC9A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66FF57A92AE03EF300EFC9A0 /* Preview Assets.xcassets */; };
-		66FF57B52AE03EF300EFC9A0 /* clepsydraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FF57B42AE03EF300EFC9A0 /* clepsydraTests.swift */; };
-		66FF57BF2AE03EF300EFC9A0 /* clepsydraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FF57BE2AE03EF300EFC9A0 /* clepsydraUITests.swift */; };
-		66FF57C12AE03EF300EFC9A0 /* clepsydraUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FF57C02AE03EF300EFC9A0 /* clepsydraUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,17 +32,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		660CFB192AE1751200CB0072 /* alarm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = alarm.mp3; path = ../../../Downloads/alarm.mp3; sourceTree = "<group>"; };
 		66FF579F2AE03EF200EFC9A0 /* clepsydra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = clepsydra.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66FF57A22AE03EF200EFC9A0 /* clepsydraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clepsydraApp.swift; sourceTree = "<group>"; };
-		66FF57A42AE03EF200EFC9A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		66FF57A42AE03EF200EFC9A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; wrapsLines = 1; };
 		66FF57A62AE03EF300EFC9A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66FF57A92AE03EF300EFC9A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		66FF57AB2AE03EF300EFC9A0 /* clepsydra.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = clepsydra.entitlements; sourceTree = "<group>"; };
 		66FF57B02AE03EF300EFC9A0 /* clepsydraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = clepsydraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		66FF57B42AE03EF300EFC9A0 /* clepsydraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clepsydraTests.swift; sourceTree = "<group>"; };
 		66FF57BA2AE03EF300EFC9A0 /* clepsydraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = clepsydraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		66FF57BE2AE03EF300EFC9A0 /* clepsydraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clepsydraUITests.swift; sourceTree = "<group>"; };
-		66FF57C02AE03EF300EFC9A0 /* clepsydraUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clepsydraUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				66FF57A12AE03EF200EFC9A0 /* clepsydra */,
-				66FF57B32AE03EF300EFC9A0 /* clepsydraTests */,
-				66FF57BD2AE03EF300EFC9A0 /* clepsydraUITests */,
 				66FF57A02AE03EF200EFC9A0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,6 +89,7 @@
 		66FF57A12AE03EF200EFC9A0 /* clepsydra */ = {
 			isa = PBXGroup;
 			children = (
+				660CFB192AE1751200CB0072 /* alarm.mp3 */,
 				66FF57A22AE03EF200EFC9A0 /* clepsydraApp.swift */,
 				66FF57A42AE03EF200EFC9A0 /* ContentView.swift */,
 				66FF57A62AE03EF300EFC9A0 /* Assets.xcassets */,
@@ -110,23 +105,6 @@
 				66FF57A92AE03EF300EFC9A0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		66FF57B32AE03EF300EFC9A0 /* clepsydraTests */ = {
-			isa = PBXGroup;
-			children = (
-				66FF57B42AE03EF300EFC9A0 /* clepsydraTests.swift */,
-			);
-			path = clepsydraTests;
-			sourceTree = "<group>";
-		};
-		66FF57BD2AE03EF300EFC9A0 /* clepsydraUITests */ = {
-			isa = PBXGroup;
-			children = (
-				66FF57BE2AE03EF300EFC9A0 /* clepsydraUITests.swift */,
-				66FF57C02AE03EF300EFC9A0 /* clepsydraUITestsLaunchTests.swift */,
-			);
-			path = clepsydraUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +213,7 @@
 			files = (
 				66FF57AA2AE03EF300EFC9A0 /* Preview Assets.xcassets in Resources */,
 				66FF57A72AE03EF300EFC9A0 /* Assets.xcassets in Resources */,
+				660CFB1A2AE1751200CB0072 /* alarm.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +247,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66FF57B52AE03EF300EFC9A0 /* clepsydraTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +254,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66FF57C12AE03EF300EFC9A0 /* clepsydraUITestsLaunchTests.swift in Sources */,
-				66FF57BF2AE03EF300EFC9A0 /* clepsydraUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

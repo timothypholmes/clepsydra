@@ -7,11 +7,17 @@
 
 import SwiftUI
 
+
 @main
-struct clepsydraApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+struct TimerApp: App {
+  var body: some Scene {
+    WindowGroup {
+      ContentView()
+        .frame(width: 300, height: 200)
+        .background(VisualEffectView()) // Set the background color to clear
+        //.edgesIgnoringSafeArea(.all) // Extend content to the edges of the window
     }
+    .windowStyle(.hiddenTitleBar) // Hide the window title bar
+    .windowResizability(.contentSize)
+  }
 }
